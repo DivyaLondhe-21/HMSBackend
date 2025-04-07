@@ -1,0 +1,503 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ReservationService",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Reservation": {
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reservation"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reservation"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reservation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reservation/{ReservationId}": {
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "name": "ReservationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reservation"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reservation"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reservation"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reservation/active": {
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reservation"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reservation"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reservation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reservation/create": {
+      "post": {
+        "tags": [
+          "Reservation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reservation"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reservation"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reservation"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reservation/update/{ReservationId}": {
+      "put": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "name": "ReservationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reservation/remove/{ReservationId}": {
+      "delete": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "name": "ReservationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Guest": {
+        "required": [
+          "company",
+          "email",
+          "gender",
+          "name",
+          "phoneNumber"
+        ],
+        "type": "object",
+        "properties": {
+          "guestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "phoneNumber": {
+            "minLength": 1,
+            "pattern": "^\\+91\\s[7-9]\\d{9}$",
+            "type": "string",
+            "format": "tel"
+          },
+          "company": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "name": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "gender": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "address": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "reservations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Reservation"
+            },
+            "nullable": true
+          },
+          "rooms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Room"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Reservation": {
+        "required": [
+          "checkInDate",
+          "checkOutDate",
+          "guestId",
+          "numberOfAdults",
+          "roomId"
+        ],
+        "type": "object",
+        "properties": {
+          "reservationId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberOfChildren": {
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberOfAdults": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "checkInDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "checkOutDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "numberOfNights": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "room": {
+            "$ref": "#/components/schemas/Room"
+          },
+          "guestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "guest": {
+            "$ref": "#/components/schemas/Guest"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReservationViewModel": {
+        "required": [
+          "checkInDate",
+          "checkOutDate",
+          "company",
+          "email",
+          "gender",
+          "name",
+          "numberOfAdults",
+          "phoneNumber",
+          "price",
+          "roomId"
+        ],
+        "type": "object",
+        "properties": {
+          "numberOfChildren": {
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberOfAdults": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "checkInDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "checkOutDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "numberOfNights": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "phoneNumber": {
+            "minLength": 1,
+            "pattern": "^\\+91\\s[7-9]\\d{9}$",
+            "type": "string",
+            "format": "tel"
+          },
+          "company": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "name": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "gender": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "address": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Room": {
+        "required": [
+          "checkInDate",
+          "checkOutDate",
+          "guestId",
+          "period",
+          "roomType"
+        ],
+        "type": "object",
+        "properties": {
+          "roomID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomType": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "price": {
+            "minimum": 0.01,
+            "type": "number",
+            "format": "double"
+          },
+          "period": {
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string"
+          },
+          "checkInDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "checkOutDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "availability": {
+            "type": "boolean"
+          },
+          "guestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "guest": {
+            "$ref": "#/components/schemas/Guest"
+          },
+          "reservations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Reservation"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,1892 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "dist/hotel-management-ui/3rdpartylicenses.bznjnntap7.txt",
+      "AssetFile": "dist/hotel-management-ui/3rdpartylicenses.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J4NotV0ksKUZAMRSxF+9rxuBzg52WIWhHsHDSPmKKjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bznjnntap7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J4NotV0ksKUZAMRSxF+9rxuBzg52WIWhHsHDSPmKKjM="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/3rdpartylicenses.txt"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/3rdpartylicenses.txt",
+      "AssetFile": "dist/hotel-management-ui/3rdpartylicenses.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J4NotV0ksKUZAMRSxF+9rxuBzg52WIWhHsHDSPmKKjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J4NotV0ksKUZAMRSxF+9rxuBzg52WIWhHsHDSPmKKjM="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/favicon.ico",
+      "AssetFile": "dist/hotel-management-ui/browser/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:58:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/favicon.vagikyz9qx.ico",
+      "AssetFile": "dist/hotel-management-ui/browser/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:58:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vagikyz9qx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/browser/favicon.ico"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/index.b5z8lzk7j2.html",
+      "AssetFile": "dist/hotel-management-ui/browser/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7wTx8pQxb8hhWZjPnCaor66Ex98RwjGucdAaDkggKRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5z8lzk7j2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7wTx8pQxb8hhWZjPnCaor66Ex98RwjGucdAaDkggKRE="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/browser/index.html"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/index.csr.html",
+      "AssetFile": "dist/hotel-management-ui/browser/index.csr.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1urMsD3iBSpW2F6k5f7setqufQUKdEp4nEq1BmDNznM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1urMsD3iBSpW2F6k5f7setqufQUKdEp4nEq1BmDNznM="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/index.csr.i94tww9k3q.html",
+      "AssetFile": "dist/hotel-management-ui/browser/index.csr.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1urMsD3iBSpW2F6k5f7setqufQUKdEp4nEq1BmDNznM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i94tww9k3q"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1urMsD3iBSpW2F6k5f7setqufQUKdEp4nEq1BmDNznM="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/browser/index.csr.html"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/index.html",
+      "AssetFile": "dist/hotel-management-ui/browser/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7wTx8pQxb8hhWZjPnCaor66Ex98RwjGucdAaDkggKRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7wTx8pQxb8hhWZjPnCaor66Ex98RwjGucdAaDkggKRE="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/main-QPK5EJXS.js",
+      "AssetFile": "dist/hotel-management-ui/browser/main-QPK5EJXS.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243044"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5B/4aF4TB+KvzYyDM2t51mfespTrZAYapviio6DiggI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5B/4aF4TB+KvzYyDM2t51mfespTrZAYapviio6DiggI="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/main-QPK5EJXS.ohurdwyxwv.js",
+      "AssetFile": "dist/hotel-management-ui/browser/main-QPK5EJXS.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243044"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5B/4aF4TB+KvzYyDM2t51mfespTrZAYapviio6DiggI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ohurdwyxwv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5B/4aF4TB+KvzYyDM2t51mfespTrZAYapviio6DiggI="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/browser/main-QPK5EJXS.js"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/polyfills-FFHMD2TL.39tegmrjtp.js",
+      "AssetFile": "dist/hotel-management-ui/browser/polyfills-FFHMD2TL.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "39tegmrjtp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/browser/polyfills-FFHMD2TL.js"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/polyfills-FFHMD2TL.js",
+      "AssetFile": "dist/hotel-management-ui/browser/polyfills-FFHMD2TL.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/styles-5INURTSO.5ipweew5fc.css",
+      "AssetFile": "dist/hotel-management-ui/browser/styles-5INURTSO.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/browser/styles-5INURTSO.css"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/browser/styles-5INURTSO.css",
+      "AssetFile": "dist/hotel-management-ui/browser/styles-5INURTSO.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/prerendered-routes.json",
+      "AssetFile": "dist/hotel-management-ui/prerendered-routes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8CuzSdoEJnrSPJ8fnlsOZFHKYrSAi1ME+oAObFpQ0kw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8CuzSdoEJnrSPJ8fnlsOZFHKYrSAi1ME+oAObFpQ0kw="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/prerendered-routes.kfm2ar68zj.json",
+      "AssetFile": "dist/hotel-management-ui/prerendered-routes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8CuzSdoEJnrSPJ8fnlsOZFHKYrSAi1ME+oAObFpQ0kw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kfm2ar68zj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8CuzSdoEJnrSPJ8fnlsOZFHKYrSAi1ME+oAObFpQ0kw="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/prerendered-routes.json"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/angular-app-engine-manifest.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/angular-app-engine-manifest.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2CsSM/JSjtNhiaB5mElLasl80s6V0oAXYI4MDI7F1wc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2CsSM/JSjtNhiaB5mElLasl80s6V0oAXYI4MDI7F1wc="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/angular-app-engine-manifest.s3d2ds2de9.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/angular-app-engine-manifest.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2CsSM/JSjtNhiaB5mElLasl80s6V0oAXYI4MDI7F1wc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s3d2ds2de9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2CsSM/JSjtNhiaB5mElLasl80s6V0oAXYI4MDI7F1wc="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/angular-app-engine-manifest.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/angular-app-manifest.j201lqp89u.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/angular-app-manifest.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZdzkPrzqHnCdMDvRbSDaD7LPqFMSRPSq/m2XqNpkoq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j201lqp89u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZdzkPrzqHnCdMDvRbSDaD7LPqFMSRPSq/m2XqNpkoq0="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/angular-app-manifest.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/angular-app-manifest.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/angular-app-manifest.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZdzkPrzqHnCdMDvRbSDaD7LPqFMSRPSq/m2XqNpkoq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZdzkPrzqHnCdMDvRbSDaD7LPqFMSRPSq/m2XqNpkoq0="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/assets-chunks/index_csr_html.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/assets-chunks/index_csr_html.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leSn/I5I1E4hJBhxO6yW0gsblNopZOrhdF1ViR6Xz64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-leSn/I5I1E4hJBhxO6yW0gsblNopZOrhdF1ViR6Xz64="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/assets-chunks/index_csr_html.pz1erqgpwg.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/assets-chunks/index_csr_html.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leSn/I5I1E4hJBhxO6yW0gsblNopZOrhdF1ViR6Xz64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pz1erqgpwg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-leSn/I5I1E4hJBhxO6yW0gsblNopZOrhdF1ViR6Xz64="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/assets-chunks/index_csr_html.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/assets-chunks/index_html.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/assets-chunks/index_html.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r85AMwuECjkm5CiFF62QqA5K1Wty2xA9Lcel/taGRsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r85AMwuECjkm5CiFF62QqA5K1Wty2xA9Lcel/taGRsw="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/assets-chunks/index_html.r9hl4o6l60.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/assets-chunks/index_html.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r85AMwuECjkm5CiFF62QqA5K1Wty2xA9Lcel/taGRsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r9hl4o6l60"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r85AMwuECjkm5CiFF62QqA5K1Wty2xA9Lcel/taGRsw="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/assets-chunks/index_html.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/assets-chunks/index_server_html.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/assets-chunks/index_server_html.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"269Aeb9ZQ+vIDl+V4ZZ7HNGT2iAveF3wpcPNzy48WOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-269Aeb9ZQ+vIDl+V4ZZ7HNGT2iAveF3wpcPNzy48WOI="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/assets-chunks/index_server_html.tquyoyiqk4.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/assets-chunks/index_server_html.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"269Aeb9ZQ+vIDl+V4ZZ7HNGT2iAveF3wpcPNzy48WOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tquyoyiqk4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-269Aeb9ZQ+vIDl+V4ZZ7HNGT2iAveF3wpcPNzy48WOI="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/assets-chunks/index_server_html.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/assets-chunks/styles-5INURTSO_css.gnjc6mr142.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/assets-chunks/styles-5INURTSO_css.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hEMCs0zfndzP5BqHsUqKg3L7y3PYjVIYGW4J/hNQ85g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gnjc6mr142"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hEMCs0zfndzP5BqHsUqKg3L7y3PYjVIYGW4J/hNQ85g="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/assets-chunks/styles-5INURTSO_css.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/assets-chunks/styles-5INURTSO_css.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/assets-chunks/styles-5INURTSO_css.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hEMCs0zfndzP5BqHsUqKg3L7y3PYjVIYGW4J/hNQ85g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hEMCs0zfndzP5BqHsUqKg3L7y3PYjVIYGW4J/hNQ85g="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/chunk-EJSJJTUO.00r8eipahe.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/chunk-EJSJJTUO.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UF8T6qVkWKfTmjcMeSbMEXNivtAaqPxJqEa4ygYQSus=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "00r8eipahe"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UF8T6qVkWKfTmjcMeSbMEXNivtAaqPxJqEa4ygYQSus="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/chunk-EJSJJTUO.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/chunk-EJSJJTUO.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/chunk-EJSJJTUO.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UF8T6qVkWKfTmjcMeSbMEXNivtAaqPxJqEa4ygYQSus=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UF8T6qVkWKfTmjcMeSbMEXNivtAaqPxJqEa4ygYQSus="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/chunk-GFUZYSQG.lkbn8j4wgf.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/chunk-GFUZYSQG.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1239"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q/Gn1qtWRfnZup1VvLBfHOHK8aGiSpSIQlqFao8rF1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lkbn8j4wgf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q/Gn1qtWRfnZup1VvLBfHOHK8aGiSpSIQlqFao8rF1E="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/chunk-GFUZYSQG.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/chunk-GFUZYSQG.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/chunk-GFUZYSQG.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1239"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q/Gn1qtWRfnZup1VvLBfHOHK8aGiSpSIQlqFao8rF1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q/Gn1qtWRfnZup1VvLBfHOHK8aGiSpSIQlqFao8rF1E="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/chunk-TNO4MGIL.3hj7zk5twu.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/chunk-TNO4MGIL.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qT5kU0x1uZi27F/mNjTUxkVnMtMZQKx9NTaUK5yX7qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3hj7zk5twu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qT5kU0x1uZi27F/mNjTUxkVnMtMZQKx9NTaUK5yX7qw="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/chunk-TNO4MGIL.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/chunk-TNO4MGIL.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/chunk-TNO4MGIL.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qT5kU0x1uZi27F/mNjTUxkVnMtMZQKx9NTaUK5yX7qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qT5kU0x1uZi27F/mNjTUxkVnMtMZQKx9NTaUK5yX7qw="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/chunk-X2SEQXRR.e2nrjsonjv.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/chunk-X2SEQXRR.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"htA0G/ZMWoROFHRsgWz/590iwmE3rXuzlb4q6u1fQDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e2nrjsonjv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-htA0G/ZMWoROFHRsgWz/590iwmE3rXuzlb4q6u1fQDk="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/chunk-X2SEQXRR.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/chunk-X2SEQXRR.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/chunk-X2SEQXRR.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"htA0G/ZMWoROFHRsgWz/590iwmE3rXuzlb4q6u1fQDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-htA0G/ZMWoROFHRsgWz/590iwmE3rXuzlb4q6u1fQDk="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/index.server.html",
+      "AssetFile": "dist/hotel-management-ui/server/index.server.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G7RPHwymnwgFi4f3xz0EQknV2FB9zQhMCDCyU4e8beI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G7RPHwymnwgFi4f3xz0EQknV2FB9zQhMCDCyU4e8beI="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/index.server.v7w83rraow.html",
+      "AssetFile": "dist/hotel-management-ui/server/index.server.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G7RPHwymnwgFi4f3xz0EQknV2FB9zQhMCDCyU4e8beI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v7w83rraow"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G7RPHwymnwgFi4f3xz0EQknV2FB9zQhMCDCyU4e8beI="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/index.server.html"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/main.server.2vnw9xhuyj.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/main.server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "688907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MmJpfjIaM2fgMP3jFqIV30DFHhRO8WY64qLNXUQfAGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2vnw9xhuyj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MmJpfjIaM2fgMP3jFqIV30DFHhRO8WY64qLNXUQfAGY="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/main.server.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/main.server.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/main.server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "688907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MmJpfjIaM2fgMP3jFqIV30DFHhRO8WY64qLNXUQfAGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MmJpfjIaM2fgMP3jFqIV30DFHhRO8WY64qLNXUQfAGY="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/polyfills.server.gc9ihpnam1.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/polyfills.server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0KS9a+4c3q8FB2TFwhIxlbFEjPrcAFNKr472Rqfuas0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gc9ihpnam1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0KS9a+4c3q8FB2TFwhIxlbFEjPrcAFNKr472Rqfuas0="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/polyfills.server.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/polyfills.server.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/polyfills.server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0KS9a+4c3q8FB2TFwhIxlbFEjPrcAFNKr472Rqfuas0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0KS9a+4c3q8FB2TFwhIxlbFEjPrcAFNKr472Rqfuas0="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/server.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "845380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T8Phmi0jmz9fnQkP+iHKEr6Rdwfi8Td96sSVElu6SeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T8Phmi0jmz9fnQkP+iHKEr6Rdwfi8Td96sSVElu6SeE="
+        }
+      ]
+    },
+    {
+      "Route": "dist/hotel-management-ui/server/server.zn7iwrajol.mjs",
+      "AssetFile": "dist/hotel-management-ui/server/server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "845380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T8Phmi0jmz9fnQkP+iHKEr6Rdwfi8Td96sSVElu6SeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 16:12:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn7iwrajol"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T8Phmi0jmz9fnQkP+iHKEr6Rdwfi8Td96sSVElu6SeE="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/hotel-management-ui/server/server.mjs"
+        }
+      ]
+    },
+    {
+      "Route": "swagger/authservice.2hipp0fuz4.json",
+      "AssetFile": "swagger/authservice.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 12:17:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2hipp0fuz4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA="
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/authservice.json"
+        }
+      ]
+    },
+    {
+      "Route": "swagger/authservice.json",
+      "AssetFile": "swagger/authservice.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 12:17:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA="
+        }
+      ]
+    }
+  ]
+}

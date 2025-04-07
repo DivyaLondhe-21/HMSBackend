@@ -1,0 +1,236 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "InventoryService",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Inventory": {
+      "get": {
+        "tags": [
+          "Inventory"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Inventory/inventory/{id}": {
+      "get": {
+        "tags": [
+          "Inventory"
+        ],
+        "parameters": [
+          {
+            "name": "departmentName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Inventory/inventory/{itemName}": {
+      "get": {
+        "tags": [
+          "Inventory"
+        ],
+        "parameters": [
+          {
+            "name": "itemName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Inventory/create": {
+      "post": {
+        "tags": [
+          "Inventory"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Inventory"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Inventory"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Inventory"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Inventory/update/{id}": {
+      "put": {
+        "tags": [
+          "Inventory"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Inventory"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Inventory"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Inventory"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Inventory/{id}": {
+      "delete": {
+        "tags": [
+          "Inventory"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Department": {
+        "required": [
+          "departmentName"
+        ],
+        "type": "object",
+        "properties": {
+          "departmentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "departmentName": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "inventories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Inventory"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Inventory": {
+        "required": [
+          "departmentId",
+          "itemName",
+          "price",
+          "quantity"
+        ],
+        "type": "object",
+        "properties": {
+          "inventoryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemName": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "quantity": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "price": {
+            "minimum": 1,
+            "type": "number",
+            "format": "double"
+          },
+          "departmentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "department": {
+            "$ref": "#/components/schemas/Department"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

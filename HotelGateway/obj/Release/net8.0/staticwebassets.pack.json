@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\wwwroot\\swagger\\authservice.json",
+      "PackagePath": "staticwebassets\\swagger\\authservice.json"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.HotelGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.HotelGateway.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.HotelGateway.props",
+      "PackagePath": "build\\HotelGateway.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HotelGateway.props",
+      "PackagePath": "buildMultiTargeting\\HotelGateway.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.HotelGateway.props",
+      "PackagePath": "buildTransitive\\HotelGateway.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

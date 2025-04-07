@@ -1,0 +1,1297 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PaymentService",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Bill": {
+      "get": {
+        "tags": [
+          "Bill"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PaymentService.Models.Bill"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PaymentService.Models.Bill"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PaymentService.Models.Bill"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Bill"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Bill"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Bill"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Bill"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Bill"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Bill"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Bill"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Bill/{id}": {
+      "get": {
+        "tags": [
+          "Bill"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Bill"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Bill"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Bill"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Bill"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Bill"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Bill"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Bill"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Bill"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PaymentService.Models.Payment"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PaymentService.Models.Payment"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PaymentService.Models.Payment"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Payment"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Payment"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Payment"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Payment"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Payment"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Payment"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Payment"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Payment/{id}": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Payment"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Payment"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentService.Models.Payment"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Payment"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Payment"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentService.Models.Payment"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reservation": {
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reservation/{ReservationId}": {
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "name": "ReservationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reservation/active": {
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reservation/create": {
+      "post": {
+        "tags": [
+          "Reservation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationService.ViewModel.ReservationViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationService.ViewModel.ReservationViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationService.ViewModel.ReservationViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reservation/update/{ReservationId}": {
+      "put": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "name": "ReservationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationService.ViewModel.ReservationViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationService.ViewModel.ReservationViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationService.ViewModel.ReservationViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reservation/remove/{ReservationId}": {
+      "delete": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "name": "ReservationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Room": {
+      "get": {
+        "tags": [
+          "Room"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Room/available": {
+      "get": {
+        "tags": [
+          "Room"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Room/{id}": {
+      "get": {
+        "tags": [
+          "Room"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Room/create": {
+      "post": {
+        "tags": [
+          "Room"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoomService.Models.Room"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoomService.Models.Room"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoomService.Models.Room"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Room/update/{id}": {
+      "put": {
+        "tags": [
+          "Room"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoomService.Models.Room"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoomService.Models.Room"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoomService.Models.Room"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Room/update/availability/{id}": {
+      "put": {
+        "tags": [
+          "Room"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Room/remove/{id}": {
+      "delete": {
+        "tags": [
+          "Room"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PaymentService.Models.Bill": {
+        "required": [
+          "date",
+          "paymentId",
+          "price",
+          "quantity",
+          "service",
+          "taxes"
+        ],
+        "type": "object",
+        "properties": {
+          "billId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantity": {
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "price": {
+            "minimum": 1,
+            "type": "number",
+            "format": "double"
+          },
+          "taxes": {
+            "maximum": 100,
+            "minimum": 0,
+            "type": "number",
+            "format": "double"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "service": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "unit": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "paymentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "payment": {
+            "$ref": "#/components/schemas/PaymentService.Models.Payment"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PaymentService.Models.Payment": {
+        "required": [
+          "amount",
+          "cardHolderName",
+          "creditCardNumber",
+          "creditCardType",
+          "creditExpiryDate",
+          "cvv",
+          "payTime",
+          "reservationId"
+        ],
+        "type": "object",
+        "properties": {
+          "paymentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "amount": {
+            "minimum": 0.01,
+            "type": "number",
+            "format": "double"
+          },
+          "payTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "creditCardNumber": {
+            "minLength": 1,
+            "pattern": "^\\d{16}$",
+            "type": "string"
+          },
+          "creditCardType": {
+            "minLength": 1,
+            "pattern": "^(Visa|MasterCard|American Express|Discover)$",
+            "type": "string"
+          },
+          "cvv": {
+            "minLength": 1,
+            "pattern": "^\\d{3}$",
+            "type": "string"
+          },
+          "cardHolderName": {
+            "minLength": 1,
+            "pattern": "^[A-Za-z\\s]+$",
+            "type": "string"
+          },
+          "creditExpiryDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "reservationId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "reservation": {
+            "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+          },
+          "bills": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PaymentService.Models.Bill"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReservationService.Models.Guest": {
+        "required": [
+          "company",
+          "email",
+          "gender",
+          "name",
+          "phoneNumber"
+        ],
+        "type": "object",
+        "properties": {
+          "guestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "phoneNumber": {
+            "minLength": 1,
+            "pattern": "^\\+91\\s[7-9]\\d{9}$",
+            "type": "string",
+            "format": "tel"
+          },
+          "company": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "name": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "gender": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "address": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "reservations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+            },
+            "nullable": true
+          },
+          "rooms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ReservationService.Models.Room"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReservationService.Models.Reservation": {
+        "required": [
+          "checkInDate",
+          "checkOutDate",
+          "guestId",
+          "numberOfAdults",
+          "roomId"
+        ],
+        "type": "object",
+        "properties": {
+          "reservationId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberOfChildren": {
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberOfAdults": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "checkInDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "checkOutDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "numberOfNights": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "room": {
+            "$ref": "#/components/schemas/ReservationService.Models.Room"
+          },
+          "guestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "guest": {
+            "$ref": "#/components/schemas/ReservationService.Models.Guest"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReservationService.Models.Room": {
+        "required": [
+          "checkInDate",
+          "checkOutDate",
+          "guestId",
+          "period",
+          "roomType"
+        ],
+        "type": "object",
+        "properties": {
+          "roomID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomType": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "price": {
+            "minimum": 0.01,
+            "type": "number",
+            "format": "double"
+          },
+          "period": {
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string"
+          },
+          "checkInDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "checkOutDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "availability": {
+            "type": "boolean"
+          },
+          "guestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "guest": {
+            "$ref": "#/components/schemas/ReservationService.Models.Guest"
+          },
+          "reservations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReservationService.ViewModel.ReservationViewModel": {
+        "required": [
+          "checkInDate",
+          "checkOutDate",
+          "company",
+          "email",
+          "gender",
+          "name",
+          "numberOfAdults",
+          "phoneNumber",
+          "price",
+          "roomId"
+        ],
+        "type": "object",
+        "properties": {
+          "numberOfChildren": {
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberOfAdults": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "checkInDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "checkOutDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "numberOfNights": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "phoneNumber": {
+            "minLength": 1,
+            "pattern": "^\\+91\\s[7-9]\\d{9}$",
+            "type": "string",
+            "format": "tel"
+          },
+          "company": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "name": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "gender": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "address": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoomService.Models.Rate": {
+        "required": [
+          "extensionPrice",
+          "firstNightPrice",
+          "numberOfChildren",
+          "numberOfDays",
+          "numberOfGuests",
+          "roomId"
+        ],
+        "type": "object",
+        "properties": {
+          "rateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "firstNightPrice": {
+            "minimum": 1000,
+            "type": "number",
+            "format": "double"
+          },
+          "extensionPrice": {
+            "minimum": 500,
+            "type": "number",
+            "format": "double"
+          },
+          "numberOfChildren": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberOfGuests": {
+            "maximum": 3,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberOfDays": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "room": {
+            "$ref": "#/components/schemas/RoomService.Models.Room"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoomService.Models.Room": {
+        "required": [
+          "checkInDate",
+          "checkOutDate",
+          "guestId",
+          "period",
+          "roomType"
+        ],
+        "type": "object",
+        "properties": {
+          "roomID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomType": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "price": {
+            "minimum": 0.01,
+            "type": "number",
+            "format": "double"
+          },
+          "period": {
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string"
+          },
+          "checkInDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "checkOutDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "availability": {
+            "type": "boolean"
+          },
+          "guestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "guest": {
+            "$ref": "#/components/schemas/ReservationService.Models.Guest"
+          },
+          "reservations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ReservationService.Models.Reservation"
+            },
+            "nullable": true
+          },
+          "rates": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RoomService.Models.Rate"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

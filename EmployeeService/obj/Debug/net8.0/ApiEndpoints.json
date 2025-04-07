@@ -1,0 +1,160 @@
+[
+  {
+    "ContainingType": "EmployeeService.Controllers.EmployeeController",
+    "Method": "GetDepartments",
+    "RelativePath": "api/Employee/departments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.Controllers.EmployeeController",
+    "Method": "AddDepartment",
+    "RelativePath": "api/Employee/departments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "department",
+        "Type": "EmployeeService.Models.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.Controllers.EmployeeController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "api/Employee/departments/{departmentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "department",
+        "Type": "EmployeeService.Models.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.Controllers.EmployeeController",
+    "Method": "RemoveDepartment",
+    "RelativePath": "api/Employee/departments/{departmentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.Controllers.EmployeeController",
+    "Method": "GetStaff",
+    "RelativePath": "api/Employee/staff",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.Controllers.EmployeeController",
+    "Method": "AddStaff",
+    "RelativePath": "api/Employee/staff",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staff",
+        "Type": "EmployeeService.Models.Staff",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.Controllers.EmployeeController",
+    "Method": "GetStaffOfaDepartment",
+    "RelativePath": "api/Employee/staff/{departmentName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.Controllers.EmployeeController",
+    "Method": "UpdateStaff",
+    "RelativePath": "api/Employee/staff/{staffId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "staff",
+        "Type": "EmployeeService.Models.Staff",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.Controllers.EmployeeController",
+    "Method": "DeleteStaff",
+    "RelativePath": "api/Employee/staff/{staffId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.Controllers.EmployeeController",
+    "Method": "GetStaffbyId",
+    "RelativePath": "api/Employee/staff/{staffID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

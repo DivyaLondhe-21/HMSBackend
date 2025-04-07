@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "InventoryService.Controllers.InventoryController",
+    "Method": "GetAllInventoryReq",
+    "RelativePath": "api/Inventory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventoryService.Controllers.InventoryController",
+    "Method": "DeleteInventoryItem",
+    "RelativePath": "api/Inventory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventoryService.Controllers.InventoryController",
+    "Method": "AddInventoryItem",
+    "RelativePath": "api/Inventory/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inventory",
+        "Type": "InventoryService.Models.Inventory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventoryService.Controllers.InventoryController",
+    "Method": "GetInventoryReqofDepartment",
+    "RelativePath": "api/Inventory/inventory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventoryService.Controllers.InventoryController",
+    "Method": "GetItembyName",
+    "RelativePath": "api/Inventory/inventory/{itemName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventoryService.Controllers.InventoryController",
+    "Method": "UpdateInventoryItem",
+    "RelativePath": "api/Inventory/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedInventory",
+        "Type": "InventoryService.Models.Inventory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

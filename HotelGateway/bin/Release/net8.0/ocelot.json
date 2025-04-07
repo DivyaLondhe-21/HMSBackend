@@ -1,0 +1,610 @@
+{
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:5032"
+    },
+  "Routes": [
+    {
+
+      "DownstreamPathTemplate": "/api/User/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5088
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "UpstreamPathTemplate": "/user/register",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/User/register",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5088
+        }
+      ]
+
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/User/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5088
+        }
+      ],
+      "UpstreamPathTemplate": "/user/login",
+      "UpstreamHttpMethod": [ "POST" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/users",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5088
+        }
+      ],
+      "UpstreamPathTemplate": "/user",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/user/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5088
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{id}",
+      "UpstreamHttpMethod": [ "PUT" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5088
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+
+    },
+
+    /*Employee*/
+    {
+      "DownstreamPathTemplate": "/api/employee/departments",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5174
+        }
+      ],
+      "UpstreamPathTemplate": "/employee/departments",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/employee/staff",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5174
+        }
+      ],
+      "UpstreamPathTemplate": "/employee/staff",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/employee/staff/{departmentName}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5174
+        }
+      ],
+      "UpstreamPathTemplate": "/employee/staff/{departmentName}",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "UpstreamPathTemplate": "/employee/staff/{staffID}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/employee/staff/{staffID}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5174
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/employee/staff",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/employee/staff",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5174
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/employee/staff/{staffId}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/api/employee/staff/{staffId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5174
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/employee/staff/{staffId}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamPathTemplate": "/api/employee/staff/{staffId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5174
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/employee/departments",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/employee/departments",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5174
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/employee/departments/{departmentId}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/api/employee/departments/{departmentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5174
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/employee/departments/{departmentId}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamPathTemplate": "/api/employee/departments/{departmentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5174
+        }
+      ]
+    },
+
+    /*Inventory*/
+    {
+      "UpstreamPathTemplate": "/inventory",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/inventory",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5128
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/inventory/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/inventory/inventory/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5128
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/inventory/{itemName}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/inventory/inventory/{itemName}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5128
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/create",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/inventory/create",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5128
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/update/{id}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/api/inventory/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5128
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamPathTemplate": "/api/inventory/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5128
+        }
+      ]
+    },
+
+    /*payments*/
+    {
+      "UpstreamPathTemplate": "/bills",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/bill",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bills/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/bill/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bills",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/bill",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bills/{id}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/api/bill/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bills/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamPathTemplate": "/api/bill/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payments",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payments/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/payment/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payments",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payments/{id}/generate-bill",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/payment/{id}/generate-bill",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payments/{id}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/api/payment/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payments/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamPathTemplate": "/api/payment/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
+        }
+      ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/guest",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/guest",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/guest/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/guest/{id}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ]
+    },
+    /*reservation*/
+    {
+      "UpstreamPathTemplate": "/reservations",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/reservation",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5028
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/reservations/{ReservationId}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/reservation/{ReservationId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5028
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/reservations/active",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/reservation/active",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5028
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/reservations/create",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/reservation/create",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5028
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/reservations/update/{ReservationId}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/api/reservation/update/{ReservationId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5028
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/reservations/remove/{ReservationId}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamPathTemplate": "/api/reservation/remove/{ReservationId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5028
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/room/all",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/available",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/room/available",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/room/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/create",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/room/create",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/update/{id}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/api/room/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/update/availability/{id}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/api/room/update/availability/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/remove/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamPathTemplate": "/api/room/remove/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    }
+  ],
+    "SwaggerEndPoints": [
+        {
+            "Name": "AuthService",
+            "Url": "http://localhost:5088/swagger/v1/swagger.json"
+        }
+    ]
+}

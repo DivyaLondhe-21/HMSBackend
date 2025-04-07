@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "swagger/authservice.2hipp0fuz4.json",
+      "AssetFile": "swagger/authservice.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 12:17:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2hipp0fuz4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA="
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/authservice.json"
+        }
+      ]
+    },
+    {
+      "Route": "swagger/authservice.json",
+      "AssetFile": "swagger/authservice.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 12:17:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA="
+        }
+      ]
+    }
+  ]
+}

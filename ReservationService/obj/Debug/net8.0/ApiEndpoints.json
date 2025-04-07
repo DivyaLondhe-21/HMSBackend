@@ -1,0 +1,131 @@
+[
+  {
+    "ContainingType": "ReservationService.Controllers.ReservationController",
+    "Method": "GetReservations",
+    "RelativePath": "api/Reservation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ReservationService.Models.Reservation, ReservationService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReservationService.Controllers.ReservationController",
+    "Method": "GetReservation",
+    "RelativePath": "api/Reservation/{ReservationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReservationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ReservationService.Models.Reservation",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReservationService.Controllers.ReservationController",
+    "Method": "GetActiveReservation",
+    "RelativePath": "api/Reservation/active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ReservationService.Models.Reservation, ReservationService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReservationService.Controllers.ReservationController",
+    "Method": "CreateReservation",
+    "RelativePath": "api/Reservation/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservation",
+        "Type": "ReservationService.ViewModel.ReservationViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ReservationService.Models.Reservation",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ReservationService.Controllers.ReservationController",
+    "Method": "DeleteReservation",
+    "RelativePath": "api/Reservation/remove/{ReservationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReservationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReservationService.Controllers.ReservationController",
+    "Method": "PutReservation",
+    "RelativePath": "api/Reservation/update/{ReservationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReservationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reservation",
+        "Type": "ReservationService.ViewModel.ReservationViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/HotelGateway/swagger/authservice.2hipp0fuz4.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\authservice.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2hipp0fuz4"},{"Name":"integrity","Value":"sha256-Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA="},{"Name":"label","Value":"_content/HotelGateway/swagger/authservice.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6313"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 12:17:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HotelGateway/swagger/authservice.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\authservice.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6313"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 12:17:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
