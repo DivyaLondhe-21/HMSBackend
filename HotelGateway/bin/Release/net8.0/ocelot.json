@@ -419,6 +419,19 @@
       ]
     },
 
+    /*guest*/
+    {
+      "DownstreamPathTemplate": "/api/guest/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/guest/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
     {
       "DownstreamPathTemplate": "/api/guest",
       "DownstreamScheme": "http",
@@ -517,9 +530,22 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/rooms",
+      "UpstreamPathTemplate": "/rooms/reservation/{id}",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/room/all",
+      "DownstreamPathTemplate": "/api/room/reservation/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5028
+        }
+      ]
+    },
+    /*room*/
+    {
+      "UpstreamPathTemplate": "/rooms/{roomId}/availability",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/Room/{roomId}/availability",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -529,9 +555,33 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/rooms/available",
+      "UpstreamPathTemplate": "/rooms",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/room/available",
+      "DownstreamPathTemplate": "/api/Room",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7188
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/Room/get/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/Room",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -542,32 +592,8 @@
     },
     {
       "UpstreamPathTemplate": "/rooms/{id}",
-      "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/room/{id}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 5155
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/rooms/create",
-      "UpstreamHttpMethod": [ "POST" ],
-      "DownstreamPathTemplate": "/api/room/create",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 5155
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/rooms/update/{id}",
       "UpstreamHttpMethod": [ "PUT" ],
-      "DownstreamPathTemplate": "/api/room/update/{id}",
+      "DownstreamPathTemplate": "/api/Room/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -577,21 +603,57 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/rooms/update/availability/{id}",
-      "UpstreamHttpMethod": [ "PUT" ],
-      "DownstreamPathTemplate": "/api/room/update/availability/{id}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 5155
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/rooms/remove/{id}",
+      "UpstreamPathTemplate": "/rooms/{id}",
       "UpstreamHttpMethod": [ "DELETE" ],
-      "DownstreamPathTemplate": "/api/room/remove/{id}",
+      "DownstreamPathTemplate": "/api/Room/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/{roomId}/rates",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/Room/{roomId}/rates",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/rates",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/Room/rates",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/rates/{rateId}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/api/Room/rates/{rateId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/rooms/rates/{rateId}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamPathTemplate": "/api/Room/rates/{rateId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -600,11 +662,5 @@
         }
       ]
     }
-  ],
-    "SwaggerEndPoints": [
-        {
-            "Name": "AuthService",
-            "Url": "http://localhost:5088/swagger/v1/swagger.json"
-        }
-    ]
+  ]
 }

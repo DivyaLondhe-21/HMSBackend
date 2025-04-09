@@ -1,31 +1,31 @@
 {
   "Version": 1,
-  "Hash": "uPq38mNcIvt1iyl0sCymDUhjnaHsrbKpLUvq3Hj/ME0=",
+  "Hash": "8Odj7puoT7NQCj/39LfhrA91wYjn8anLt+vL2wMjvQM=",
   "Source": "PaymentService",
   "BasePath": "_content/PaymentService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\Dproject\\ReservationService\\ReservationService.csproj",
+      "Identity": "D:\\DPROJ\\HMSBackend\\ReservationService\\ReservationService.csproj",
       "Version": 2,
       "Source": "ReservationService",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "D:\\Dproject\\RoomService\\RoomService.csproj",
+      "Identity": "D:\\DPROJ\\HMSBackend\\RoomService\\RoomService.csproj",
       "Version": 2,
       "Source": "RoomService",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],

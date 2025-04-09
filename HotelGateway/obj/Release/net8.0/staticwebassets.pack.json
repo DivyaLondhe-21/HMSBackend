@@ -1,12 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\wwwroot\\swagger\\authservice.json",
+      "Id": "D:\\DPROJ\\HMSBackend\\HotelGateway\\wwwroot\\swagger\\authservice.json",
       "PackagePath": "staticwebassets\\swagger\\authservice.json"
-    },
-    {
-      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.HotelGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.HotelGateway.Microsoft.AspNetCore.StaticWebAssets.props",

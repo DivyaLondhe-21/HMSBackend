@@ -1,5 +1,8 @@
 ﻿using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 
@@ -54,7 +57,7 @@ namespace HotelGateway
             var app = builder.Build();
 
             //app.UseCors("AllowAllOrigins");
-            //app.UseCors("AllowAngularApp");
+            app.UseCors("AllowAngularApp");
             app.UseStaticFiles();
 
             // Configure the HTTP request pipeline.
@@ -71,14 +74,15 @@ namespace HotelGateway
                     c.DisplayOperationId();
                 });
             app.UseCors("AllowAll");
-
+            app.Use(async (context, next) =>
+            {
+                Console.WriteLine($"[Gateway] Incoming: {context.Request.Method} {context.Request.Path}");
+                await next();
+            });
             // app.UseHttpsRedirection();
-
+            app.MapGet("/", () => "Gateway is working");
             app.UseAuthorization();
-            app.UseRouting();
             app.UseOcelot();
-
-            app.MapControllers();
 
             app.Run();
         }

@@ -21,10 +21,14 @@ namespace RoomService
 
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowAll", policy =>
-                    policy.AllowAnyOrigin()
-                          .AllowAnyMethod()
-                          .AllowAnyHeader());
+                
+                options.AddPolicy("AllowAll", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyHeader()
+                           .AllowAnyMethod();
+                });
+
             });
 
             builder.Services.AddControllers();
@@ -41,6 +45,7 @@ namespace RoomService
             }
 
             app.UseCors("AllowAll");
+            app.UseRouting();
 
             app.UseAuthorization();
 

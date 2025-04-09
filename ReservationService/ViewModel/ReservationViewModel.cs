@@ -8,21 +8,19 @@ namespace ReservationService.ViewModel;
 
 public partial class ReservationViewModel
 {
-
-
-    [Range(0, int.MaxValue, ErrorMessage = "Number of children must be a non-negative value.")]
+    public int ReservationId { get; set; }
+    public int GuestId { get; set; }
     public int NumberOfChildren { get; set; }
 
-    [Range(1, int.MaxValue, ErrorMessage = "Number of adults must be at least 1.")]
     [Required]
     public int NumberOfAdults { get; set; }
 
     [DataType(DataType.Date)]
-    [Required(ErrorMessage = "Check-in date is required.")]
+    [Required]
     public DateTime CheckInDate { get; set; }
 
     [DataType(DataType.Date)]
-    [Required(ErrorMessage = "Check-out date is required.")]
+    [Required]
     public DateTime CheckOutDate { get; set; }
 
     [Range(1, int.MaxValue, ErrorMessage = "Number of nights must be at least 1.")]

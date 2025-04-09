@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ReservationService.Interface;
 using ReservationService.DTO; // Assuming DTOs are here
+using ReservationService.ViewModel;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using ReservationService.ViewModel;
+using ReservationService.Models;
 
 namespace ReservationService.Controllers
 {
@@ -39,26 +42,27 @@ namespace ReservationService.Controllers
             return Ok(activeReservations);
         }
 
-        [HttpPost]
-        public async Task<ActionResult<ReservationGetDTO>> AddReservation([FromBody] ReservationGetDTO reservation)
+        [HttpPost("create")]
+        public async Task<ActionResult<ReservationGetDTO>> AddReservation([FromBody] ReservationViewModel reservation)
         {
             var result = await _reservationService.AddReservationAsync(reservation);
             return CreatedAtAction(nameof(GetReservationById), new { id = result.ReservationId }, result);
         }
 
-        [HttpPut("{id}")]
-        public async Task<ActionResult<ReservationGetDTO>> UpdateReservation(int id, [FromBody] ReservationGetDTO reservation)
+        [HttpPut("update/{id}")]
+        public async Task<ActionResult<ReservationGetDTO>> UpdateReservation(int id, [FromBody] ReservationViewModel reservation)
         {
-            if (id != reservation.ReservationId) return BadRequest();
             var updated = await _reservationService.UpdateReservationAsync(id, reservation);
+            if (updated == null) return NotFound();
             return Ok(updated);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("remove/{id}")]
         public async Task<IActionResult> DeleteReservation(int id)
         {
             await _reservationService.DeleteReservationAsync(id);
             return NoContent();
         }
+
     }
 }

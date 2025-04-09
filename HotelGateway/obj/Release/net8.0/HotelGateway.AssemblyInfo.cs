@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotelGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2df74852d2d6a7e81ada524b12e887ae97902ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotelGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotelGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

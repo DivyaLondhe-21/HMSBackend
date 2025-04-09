@@ -106,8 +106,8 @@ using System.Threading.Tasks;
 
 namespace RoomService.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class RoomController : ControllerBase
     {
         private readonly IRoom _roomRepo;
@@ -122,11 +122,12 @@ namespace RoomService.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllRooms()
         {
+            Console.Write("Room is get");
             var rooms = await _roomRepo.GetAllAsync();
             return Ok(rooms);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("get/{id}")]
         public async Task<IActionResult> GetRoomById(int id)
         {
             var room = await _roomRepo.GetByIdAsync(id);
@@ -137,6 +138,7 @@ namespace RoomService.Controllers
         [HttpPost]
         public async Task<IActionResult> AddRoom(RoomDTO dto)
         {
+            Console.Write(dto.ToString() + " " + dto.RoomID + " " + dto.RoomType + " " + dto.Price + " " + dto.Period + " " + dto.Availability + " " + dto.GuestId);
             await _roomRepo.AddAsync(dto);
             return Ok();
         }

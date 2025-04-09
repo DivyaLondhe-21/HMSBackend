@@ -1,100 +1,96 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\3rdpartylicenses.txt",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\3rdpartylicenses.txt",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\3rdpartylicenses.txt"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\favicon.ico",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\favicon.ico",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\browser\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\index.csr.html",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\index.csr.html",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\browser\\index.csr.html"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\index.html",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\index.html",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\browser\\index.html"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\main-QPK5EJXS.js",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\main-QPK5EJXS.js",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\browser\\main-QPK5EJXS.js"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\polyfills-FFHMD2TL.js",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\polyfills-FFHMD2TL.js",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\browser\\polyfills-FFHMD2TL.js"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\styles-5INURTSO.css",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\browser\\styles-5INURTSO.css",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\browser\\styles-5INURTSO.css"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\prerendered-routes.json",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\prerendered-routes.json",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\prerendered-routes.json"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\angular-app-engine-manifest.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\angular-app-engine-manifest.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\angular-app-engine-manifest.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\angular-app-manifest.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\angular-app-manifest.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\angular-app-manifest.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\assets-chunks\\index_csr_html.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\assets-chunks\\index_csr_html.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\assets-chunks\\index_csr_html.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\assets-chunks\\index_html.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\assets-chunks\\index_html.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\assets-chunks\\index_html.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\assets-chunks\\index_server_html.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\assets-chunks\\index_server_html.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\assets-chunks\\index_server_html.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\assets-chunks\\styles-5INURTSO_css.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\assets-chunks\\styles-5INURTSO_css.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\assets-chunks\\styles-5INURTSO_css.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\chunk-EJSJJTUO.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\chunk-EJSJJTUO.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\chunk-EJSJJTUO.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\chunk-GFUZYSQG.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\chunk-GFUZYSQG.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\chunk-GFUZYSQG.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\chunk-TNO4MGIL.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\chunk-TNO4MGIL.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\chunk-TNO4MGIL.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\chunk-X2SEQXRR.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\chunk-X2SEQXRR.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\chunk-X2SEQXRR.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\index.server.html",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\index.server.html",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\index.server.html"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\main.server.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\main.server.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\main.server.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\polyfills.server.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\polyfills.server.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\polyfills.server.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\server.mjs",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\dist\\hotel-management-ui\\server\\server.mjs",
       "PackagePath": "staticwebassets\\dist\\hotel-management-ui\\server\\server.mjs"
     },
     {
-      "Id": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\wwwroot\\swagger\\authservice.json",
+      "Id": "D:\\DPROJ\\HMSBackend\\AuthService\\wwwroot\\swagger\\authservice.json",
       "PackagePath": "staticwebassets\\swagger\\authservice.json"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AuthService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AuthService.Microsoft.AspNetCore.StaticWebAssets.props",

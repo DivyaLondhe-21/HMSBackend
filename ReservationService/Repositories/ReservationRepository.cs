@@ -305,6 +305,7 @@ using ReservationService.DTO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ReservationService.ViewModel;
 
 namespace ReservationService.Repository
 {
@@ -370,9 +371,52 @@ namespace ReservationService.Repository
                 .ToListAsync();
         }
 
-        public async Task<ReservationGetDTO> AddReservationAsync(ReservationGetDTO reservationDto)
+        public async Task<ReservationViewModel> AddReservationAsync(ReservationViewModel reservationDto)
         {
+            var guest = new Guest
+            {
+                Name = reservationDto.Name,
+                Email = reservationDto.Email,
+                PhoneNumber = reservationDto.PhoneNumber,
+                Company = reservationDto.Company,
+                Gender = reservationDto.Gender,
+                Address = reservationDto.Address
+            };
+
+            _context.Guests.Add(guest);
+            await _context.SaveChangesAsync(); // Save to get the GuestId
+
+            // 2. Save Reservation Info
             var reservation = new Reservation
+            {
+                NumberOfAdults = reservationDto.NumberOfAdults,
+                NumberOfChildren = reservationDto.NumberOfChildren,
+                CheckInDate = reservationDto.CheckInDate,
+                CheckOutDate = reservationDto.CheckOutDate,
+                NumberOfNights = reservationDto.NumberOfNights,
+                RoomId = reservationDto.RoomId,
+                GuestId = guest.GuestId
+            };
+
+            _context.Reservations.Add(reservation);
+
+            // 3. Update Room Info
+            var room = await _context.Rooms.FindAsync(reservationDto.RoomId);
+            if (room != null)
+            {
+                room.Availability = false;
+                room.CheckInDate = reservationDto.CheckInDate;
+                room.CheckOutDate = reservationDto.CheckOutDate;
+                room.GuestId = guest.GuestId;
+            }
+
+            await _context.SaveChangesAsync();
+
+            // 4. Return Result
+            reservationDto.ReservationId = reservation.ReservationId;
+            reservationDto.GuestId = guest.GuestId;
+            return reservationDto;
+            /*var reservation = new Reservation
             {
                 NumberOfAdults = reservationDto.NumberOfAdults,
                 NumberOfChildren = reservationDto.NumberOfChildren,
@@ -387,12 +431,47 @@ namespace ReservationService.Repository
             await _context.SaveChangesAsync();
 
             reservationDto.ReservationId = reservation.ReservationId;
-            return reservationDto;
+            return reservationDto;*/
         }
 
-        public async Task<ReservationGetDTO> UpdateReservationAsync(int reservationId, ReservationGetDTO reservationDto)
+        public async Task<ReservationViewModel> UpdateReservationAsync(int reservationId, ReservationViewModel reservationDto)
         {
             var reservation = await _context.Reservations.FindAsync(reservationId);
+            if (reservation == null) return null;
+
+            // Update Reservation fields
+            reservation.NumberOfAdults = reservationDto.NumberOfAdults;
+            reservation.NumberOfChildren = reservationDto.NumberOfChildren;
+            reservation.CheckInDate = reservationDto.CheckInDate;
+            reservation.CheckOutDate = reservationDto.CheckOutDate;
+            reservation.NumberOfNights = reservationDto.NumberOfNights;
+            reservation.RoomId = reservationDto.RoomId;
+
+            // Update Guest info
+            var guest = await _context.Guests.FindAsync(reservation.GuestId);
+            if (guest != null)
+            {
+                guest.Name = reservationDto.Name;
+                guest.Email = reservationDto.Email;
+                guest.PhoneNumber = reservationDto.PhoneNumber;
+                guest.Company = reservationDto.Company;
+                guest.Gender = reservationDto.Gender;
+                guest.Address = reservationDto.Address;
+            }
+
+            // Update Room Info
+            var room = await _context.Rooms.FindAsync(reservationDto.RoomId);
+            if (room != null)
+            {
+                room.Availability = false;
+                room.CheckInDate = reservationDto.CheckInDate;
+                room.CheckOutDate = reservationDto.CheckOutDate;
+                room.GuestId = guest?.GuestId ?? reservation.GuestId;
+            }
+
+            await _context.SaveChangesAsync();
+            return reservationDto;
+            /*var reservation = await _context.Reservations.FindAsync(reservationId);
             if (reservation == null) return null;
 
             reservation.NumberOfAdults = reservationDto.NumberOfAdults;
@@ -405,7 +484,7 @@ namespace ReservationService.Repository
 
             await _context.SaveChangesAsync();
 
-            return reservationDto;
+            return reservationDto;*/
         }
 
         public async Task DeleteReservationAsync(int reservationId)

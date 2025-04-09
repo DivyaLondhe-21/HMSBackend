@@ -68,7 +68,7 @@ namespace ReservationService.Controllers
             return Ok(_roomRepository.GetAvailableRoomsByType(roomType));
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("reservation/{id}")]
         public ActionResult<Room> GetRoomById(int id)
         {
             var room = _roomRepository.GetRoomById(id);

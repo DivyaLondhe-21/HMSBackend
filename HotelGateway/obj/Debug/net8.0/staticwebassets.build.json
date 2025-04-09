@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vVe27r+B/ypxqW3fKM/YTeiILgTq0G37CSrZNC26ZbQ=",
+  "Hash": "hZiICuKMNQACHfn/E11xphDYNp6JBeq1vFtouiL8izQ=",
   "Source": "HotelGateway",
   "BasePath": "_content/HotelGateway",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HotelGateway\\wwwroot",
       "Source": "HotelGateway",
-      "ContentRoot": "D:\\Dproject\\HotelGateway\\wwwroot\\",
+      "ContentRoot": "D:\\DPROJ\\HMSBackend\\HotelGateway\\wwwroot\\",
       "BasePath": "_content/HotelGateway",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Dproject\\HotelGateway\\wwwroot\\swagger\\authservice.json",
+      "Identity": "D:\\DPROJ\\HMSBackend\\HotelGateway\\wwwroot\\swagger\\authservice.json",
       "SourceId": "HotelGateway",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Dproject\\HotelGateway\\wwwroot\\",
+      "ContentRoot": "D:\\DPROJ\\HMSBackend\\HotelGateway\\wwwroot\\",
       "BasePath": "_content/HotelGateway",
       "RelativePath": "swagger/authservice.json",
       "AssetKind": "All",

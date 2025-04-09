@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\PaymentService\\PaymentService.csproj": {}
+    "D:\\DPROJ\\HMSBackend\\PaymentService\\PaymentService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\PaymentService\\PaymentService.csproj": {
+    "D:\\DPROJ\\HMSBackend\\PaymentService\\PaymentService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\PaymentService\\PaymentService.csproj",
+        "projectUniqueName": "D:\\DPROJ\\HMSBackend\\PaymentService\\PaymentService.csproj",
         "projectName": "PaymentService",
-        "projectPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\PaymentService\\PaymentService.csproj",
-        "packagesPath": "C:\\Users\\DRAJESHL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\PaymentService\\obj\\",
+        "projectPath": "D:\\DPROJ\\HMSBackend\\PaymentService\\PaymentService.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\DPROJ\\HMSBackend\\PaymentService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DRAJESHL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\ReservationService\\ReservationService.csproj": {
-                "projectPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\ReservationService\\ReservationService.csproj"
+              "D:\\DPROJ\\HMSBackend\\ReservationService\\ReservationService.csproj": {
+                "projectPath": "D:\\DPROJ\\HMSBackend\\ReservationService\\ReservationService.csproj"
               },
-              "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\RoomService.csproj": {
-                "projectPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\RoomService.csproj"
+              "D:\\DPROJ\\HMSBackend\\RoomService\\RoomService.csproj": {
+                "projectPath": "D:\\DPROJ\\HMSBackend\\RoomService\\RoomService.csproj"
               }
             }
           }
@@ -50,8 +51,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -81,6 +81,10 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[23.4.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -105,24 +109,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\ReservationService\\ReservationService.csproj": {
+    "D:\\DPROJ\\HMSBackend\\ReservationService\\ReservationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\ReservationService\\ReservationService.csproj",
+        "projectUniqueName": "D:\\DPROJ\\HMSBackend\\ReservationService\\ReservationService.csproj",
         "projectName": "ReservationService",
-        "projectPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\ReservationService\\ReservationService.csproj",
-        "packagesPath": "C:\\Users\\DRAJESHL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\ReservationService\\obj\\",
+        "projectPath": "D:\\DPROJ\\HMSBackend\\ReservationService\\ReservationService.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\DPROJ\\HMSBackend\\ReservationService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DRAJESHL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -131,6 +135,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -148,8 +153,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -175,6 +179,10 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[23.4.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -199,24 +207,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\RoomService.csproj": {
+    "D:\\DPROJ\\HMSBackend\\RoomService\\RoomService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\RoomService.csproj",
+        "projectUniqueName": "D:\\DPROJ\\HMSBackend\\RoomService\\RoomService.csproj",
         "projectName": "RoomService",
-        "projectPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\RoomService.csproj",
-        "packagesPath": "C:\\Users\\DRAJESHL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\obj\\",
+        "projectPath": "D:\\DPROJ\\HMSBackend\\RoomService\\RoomService.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\DPROJ\\HMSBackend\\RoomService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DRAJESHL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -225,14 +233,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\ReservationService\\ReservationService.csproj": {
-                "projectPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\ReservationService\\ReservationService.csproj"
+              "D:\\DPROJ\\HMSBackend\\ReservationService\\ReservationService.csproj": {
+                "projectPath": "D:\\DPROJ\\HMSBackend\\ReservationService\\ReservationService.csproj"
               }
             }
           }
@@ -246,8 +255,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -277,6 +285,10 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[23.4.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -301,7 +313,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -140,6 +140,7 @@ namespace RoomService.Repositories
 
         public async Task AddAsync(RoomDTO dto)
         {
+
             var r = new Room
             {
                 RoomType = dto.RoomType,

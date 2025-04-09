@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "opo/qCAXykq1B3O6N72+c9s5vEF5+iIiyRHQfMI+Pfg=",
+  "Hash": "hZiICuKMNQACHfn/E11xphDYNp6JBeq1vFtouiL8izQ=",
   "Source": "HotelGateway",
   "BasePath": "_content/HotelGateway",
   "Mode": "Default",
@@ -10,116 +10,30 @@
     {
       "Name": "HotelGateway\\wwwroot",
       "Source": "HotelGateway",
-      "ContentRoot": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\wwwroot\\",
+      "ContentRoot": "D:\\DPROJ\\HMSBackend\\HotelGateway\\wwwroot\\",
       "BasePath": "_content/HotelGateway",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\wwwroot\\swagger\\authservice.json",
+      "Identity": "D:\\DPROJ\\HMSBackend\\HotelGateway\\wwwroot\\swagger\\authservice.json",
       "SourceId": "HotelGateway",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\wwwroot\\",
+      "ContentRoot": "D:\\DPROJ\\HMSBackend\\HotelGateway\\wwwroot\\",
       "BasePath": "_content/HotelGateway",
-      "RelativePath": "swagger/authservice#[.{fingerprint}]?.json",
+      "RelativePath": "swagger/authservice.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2hipp0fuz4",
-      "Integrity": "Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\swagger\\authservice.json"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "swagger/authservice.2hipp0fuz4.json",
-      "AssetFile": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\wwwroot\\swagger\\authservice.json",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6313"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 12:17:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2hipp0fuz4"
-        },
-        {
-          "Name": "label",
-          "Value": "swagger/authservice.json"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA="
-        }
-      ]
-    },
-    {
-      "Route": "swagger/authservice.json",
-      "AssetFile": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\wwwroot\\swagger\\authservice.json",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6313"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 12:17:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Oq2c4c/ji0b3z89ZtWE2kVSrZ8KVujld1aX6o8Ho2KA="
-        }
-      ]
     }
   ]
 }
