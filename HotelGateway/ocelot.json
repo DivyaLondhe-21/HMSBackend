@@ -421,7 +421,7 @@
 
     /*guest*/
     {
-      "DownstreamPathTemplate": "/api/guest/{id}",
+      "DownstreamPathTemplate": "/api/Guest/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -433,7 +433,31 @@
       "UpstreamHttpMethod": [ "GET" ]
     },
     {
-      "DownstreamPathTemplate": "/api/guest",
+      "DownstreamPathTemplate": "/api/Guest/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/guest/{id}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Guest/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/guest/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Guest",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -442,13 +466,13 @@
         }
       ],
       "UpstreamPathTemplate": "/guest",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [ "GET", "POST" ]
     },
     /*reservation*/
     {
       "UpstreamPathTemplate": "/reservations",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/reservation",
+      "DownstreamPathTemplate": "/api/Reservation",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -458,9 +482,9 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/reservations/{ReservationId}",
+      "UpstreamPathTemplate": "/reservations/{id}",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/reservation/{ReservationId}",
+      "DownstreamPathTemplate": "/api/Reservation/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -472,7 +496,7 @@
     {
       "UpstreamPathTemplate": "/reservations/active",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/reservation/active",
+      "DownstreamPathTemplate": "/api/Reservation/active",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -484,7 +508,7 @@
     {
       "UpstreamPathTemplate": "/reservations/create",
       "UpstreamHttpMethod": [ "POST" ],
-      "DownstreamPathTemplate": "/api/reservation/create",
+      "DownstreamPathTemplate": "/api/Reservation/create",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -494,9 +518,9 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/reservations/update/{ReservationId}",
+      "UpstreamPathTemplate": "/reservations/update/{id}",
       "UpstreamHttpMethod": [ "PUT" ],
-      "DownstreamPathTemplate": "/api/reservation/update/{ReservationId}",
+      "DownstreamPathTemplate": "/api/Reservation/update/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -506,9 +530,9 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/reservations/remove/{ReservationId}",
+      "UpstreamPathTemplate": "/reservations/remove/{id}",
       "UpstreamHttpMethod": [ "DELETE" ],
-      "DownstreamPathTemplate": "/api/reservation/remove/{ReservationId}",
+      "DownstreamPathTemplate": "/api/Reservation/remove/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -520,7 +544,7 @@
     {
       "UpstreamPathTemplate": "/rooms/reservation/{id}",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/room/reservation/{id}",
+      "DownstreamPathTemplate": "/api/Room/reservation/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
