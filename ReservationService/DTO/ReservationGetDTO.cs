@@ -19,6 +19,9 @@ namespace ReservationService.DTO
 {
     public class ReservationGetDTO
     {
+        public string GuestName { get; set; }
+        public string GuestPhoneNumber { get; set; }
+        public string GuestEmail { get; set; }
         public int ReservationId { get; set; }
         public int NumberOfAdults { get; set; }
         public int NumberOfChildren { get; set; }

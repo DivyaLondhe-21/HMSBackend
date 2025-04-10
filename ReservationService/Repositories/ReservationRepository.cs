@@ -320,7 +320,9 @@ namespace ReservationService.Repository
 
         public async Task<IEnumerable<ReservationGetDTO>> GetAllReservationsAsync()
         {
+
             return await _context.Reservations
+                  .Include(r => r.Guest)
                 .Select(r => new ReservationGetDTO
                 {
                     ReservationId = r.ReservationId,
@@ -330,7 +332,10 @@ namespace ReservationService.Repository
                     CheckOutDate = r.CheckOutDate,
                     NumberOfNights = r.NumberOfNights,
                     RoomId = r.RoomId,
-                    GuestId = r.GuestId
+                    GuestId = r.GuestId,
+                    GuestName = r.Guest.Name,
+                    GuestEmail = r.Guest.Email,
+                    GuestPhoneNumber = r.Guest.PhoneNumber
                 })
                 .ToListAsync();
         }
@@ -338,6 +343,7 @@ namespace ReservationService.Repository
         public async Task<IEnumerable<ReservationGetDTO>> GetReservationByIdAsync(int reservationId)
         {
             return await _context.Reservations
+                .Include(r=> r.Guest)
                 .Where(r => r.ReservationId == reservationId)
                 .Select(r => new ReservationGetDTO
                 {
@@ -348,7 +354,10 @@ namespace ReservationService.Repository
                     CheckOutDate = r.CheckOutDate,
                     NumberOfNights = r.NumberOfNights,
                     RoomId = r.RoomId,
-                    GuestId = r.GuestId
+                    GuestId = r.GuestId,
+                    GuestName = r.Guest.Name,
+                    GuestEmail = r.Guest.Email,
+                    GuestPhoneNumber = r.Guest.PhoneNumber
                 })
                 .ToListAsync();
         }
@@ -356,6 +365,7 @@ namespace ReservationService.Repository
         public async Task<IEnumerable<ReservationGetDTO>> GetActiveReservationAsync()
         {
             return await _context.Reservations
+                .Include(r => r.Guest)
                 .Where(r => r.CheckOutDate > System.DateTime.Now)
                 .Select(r => new ReservationGetDTO
                 {
@@ -366,25 +376,33 @@ namespace ReservationService.Repository
                     CheckOutDate = r.CheckOutDate,
                     NumberOfNights = r.NumberOfNights,
                     RoomId = r.RoomId,
-                    GuestId = r.GuestId
+                    GuestId = r.GuestId,
+                    GuestName = r.Guest.Name,
+                    GuestEmail = r.Guest.Email,
+                    GuestPhoneNumber = r.Guest.PhoneNumber
                 })
                 .ToListAsync();
         }
 
         public async Task<ReservationViewModel> AddReservationAsync(ReservationViewModel reservationDto)
         {
-            var guest = new Guest
-            {
-                Name = reservationDto.Name,
-                Email = reservationDto.Email,
-                PhoneNumber = reservationDto.PhoneNumber,
-                Company = reservationDto.Company,
-                Gender = reservationDto.Gender,
-                Address = reservationDto.Address
-            };
+            var guest = await _context.Guests.FirstOrDefaultAsync(g => g.Email == reservationDto.Email);
 
-            _context.Guests.Add(guest);
-            await _context.SaveChangesAsync(); // Save to get the GuestId
+            if (guest == null)
+            {
+                guest = new Guest
+                {
+                    Name = reservationDto.Name,
+                    Email = reservationDto.Email,
+                    PhoneNumber = reservationDto.PhoneNumber,
+                    Company = reservationDto.Company,
+                    Gender = reservationDto.Gender,
+                    Address = reservationDto.Address
+                };
+
+                _context.Guests.Add(guest);
+                await _context.SaveChangesAsync(); // Save to get the GuestId
+            }
 
             // 2. Save Reservation Info
             var reservation = new Reservation

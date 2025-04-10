@@ -215,7 +215,7 @@
     {
       "UpstreamPathTemplate": "/inventory",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/inventory",
+      "DownstreamPathTemplate": "/api/Inventory",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -225,9 +225,9 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/inventory/inventory/{id}",
+      "UpstreamPathTemplate": "/inventory/by-department/{departmentName}",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/inventory/inventory/{id}",
+      "DownstreamPathTemplate": "/api/Inventory/by-department/{departmentName}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -237,9 +237,9 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/inventory/inventory/{itemName}",
+      "UpstreamPathTemplate": "/inventory/by-item/{itemName}",
       "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamPathTemplate": "/api/inventory/inventory/{itemName}",
+      "DownstreamPathTemplate": "/api/Inventory/by-item/{itemName}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -249,9 +249,21 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/inventory/create",
+      "UpstreamPathTemplate": "/inventory/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/Inventory/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5128
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory",
       "UpstreamHttpMethod": [ "POST" ],
-      "DownstreamPathTemplate": "/api/inventory/create",
+      "DownstreamPathTemplate": "/api/Inventory",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -261,9 +273,9 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/inventory/update/{id}",
+      "UpstreamPathTemplate": "/inventory/{id}",
       "UpstreamHttpMethod": [ "PUT" ],
-      "DownstreamPathTemplate": "/api/inventory/update/{id}",
+      "DownstreamPathTemplate": "/api/Inventory/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -275,7 +287,7 @@
     {
       "UpstreamPathTemplate": "/inventory/{id}",
       "UpstreamHttpMethod": [ "DELETE" ],
-      "DownstreamPathTemplate": "/api/inventory/{id}",
+      "DownstreamPathTemplate": "/api/Inventory/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {

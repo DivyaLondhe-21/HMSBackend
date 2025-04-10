@@ -125,6 +125,8 @@ namespace InventoryService.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
+
+            Console.Write("Inventory is get");
             var items = await _inventoryRepo.GetAllInventoryRequest();
             var result = items.Select(i => new InventoryDTO
             {
@@ -191,6 +193,7 @@ namespace InventoryService.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateInventoryDTO dto)
         {
+            Console.Write("Inventory is post");
             int deptId = await _departmentRepo.GetDepartmentID(dto.DepartmentName);
             if (deptId == 0) return BadRequest("Invalid department");
 
