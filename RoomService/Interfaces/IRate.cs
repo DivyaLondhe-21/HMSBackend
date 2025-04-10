@@ -20,6 +20,7 @@ namespace RoomService.Interfaces
 {
     public interface IRate
     {
+        Task<IEnumerable<RateDTO>> GetAllRatesAsync();
         Task<IEnumerable<RateDTO>> GetRatesByRoomIdAsync(int roomId);
         Task AddAsync(RateDTO rate);
         Task UpdateAsync(RateDTO rate);

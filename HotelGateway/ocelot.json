@@ -698,6 +698,19 @@
         }
       ]
     },
+
+    {
+      "UpstreamPathTemplate": "/rate",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/Rate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5155
+        }
+      ]
+    },
     {
       "UpstreamPathTemplate": "/rate",
       "UpstreamHttpMethod": [ "POST" ],

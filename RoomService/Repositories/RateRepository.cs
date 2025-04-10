@@ -83,7 +83,21 @@ namespace RoomService.Repositories
         {
             _context = context;
         }
-
+        public async Task<IEnumerable<RateDTO>> GetAllRatesAsync()
+        {
+            return await _context.Rates
+                .Select(rate => new RateDTO
+                {
+                    RateId = rate.RateId,
+                    FirstNightPrice = rate.FirstNightPrice,
+                    ExtensionPrice = rate.ExtensionPrice,
+                    NumberOfChildren = rate.NumberOfChildren,
+                    NumberOfGuests = rate.NumberOfGuests,
+                    NumberOfDays = rate.NumberOfDays,
+                    RoomId = rate.RoomId
+                })
+                .ToListAsync();
+        }
         public async Task<IEnumerable<RateDTO>> GetRatesByRoomIdAsync(int roomId)
         {
             return await _context.Rates

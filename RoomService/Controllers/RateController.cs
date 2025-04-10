@@ -101,6 +101,12 @@ namespace RoomService.Controllers
             _rateService = rateService;
         }
 
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<RateDTO>>> GetAllRates()
+        {
+            var rates = await _rateService.GetAllRatesAsync();
+            return Ok(rates);
+        }
         // GET: api/rate/room/5
         [HttpGet("room/{roomId}")]
         public async Task<ActionResult<IEnumerable<RateDTO>>> GetRatesByRoomId(int roomId)
